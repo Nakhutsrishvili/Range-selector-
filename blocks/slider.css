@@ -1,0 +1,9 @@
+.slider{
+    height: 12px;
+    width: 210px;
+    border-radius: 12px;
+    background: #ffecbb;
+    margin: auto;
+    margin-top: 22px;
+    position: relative;
+}

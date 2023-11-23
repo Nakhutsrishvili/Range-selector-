@@ -1,0 +1,34 @@
+.range-input{
+    position: relative;
+    margin: auto;
+    margin-right: 210px;
+}
+
+.range-input input{
+    position: absolute;
+    top: -17px;
+    width: 210px;
+    margin-right: 95px;
+    background: none;
+    -webkit-appearance: none;
+    pointer-events: none;
+}
+
+input[type='range']::-webkit-slider-thumb{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    background: white;
+    pointer-events: auto;
+}
+
+input[type='range']::-moz-slider-thumb{
+    height: 24px;
+    width: 24px;
+    border: none;
+    border-radius: 50%;
+    -moz-appearance: none;
+    background: white;
+    pointer-events: auto;
+}
